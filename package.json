@@ -1,0 +1,27 @@
+{
+    "name": "notebook-api",
+    "version": "1.0.0",
+    "description": "A platform for writting and reading",
+    "main": "main.ts",
+    "author": "Muco Rolle Tresor <mucorolle@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "NODE_ENV=development nodemon"
+    },
+    "dependencies": {
+        "apollo-server": "^2.13.0",
+        "apollo-server-express": "^2.13.0",
+        "express": "^4.17.1",
+        "graphql": "^15.0.0",
+        "graphql-tools": "^5.0.0",
+        "signale": "^1.4.0",
+        "type-graphql": "^1.0.0-rc.1"
+    },
+    "devDependencies": {
+        "@types/signale": "^1.4.1",
+        "nodemon": "^2.0.3",
+        "ts-node": "^8.10.1",
+        "tsconfig-paths": "^3.9.0",
+        "typescript": "^3.8.3"
+    }
+}
