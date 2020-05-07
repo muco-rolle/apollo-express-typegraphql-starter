@@ -1,30 +1,45 @@
 import fancyLogger from "@poppinss/fancy-logs";
 
 export const alert = {
-    info(message: string, prefix?: string) {
-        return fancyLogger.info({ message, prefix: `[${prefix}]` });
+    info(message: any, prefix?: string) {
+        return fancyLogger.info({
+            message,
+            prefix: prefix ? `[${prefix}]` : "",
+        });
     },
 
-    success(message: string, prefix?: string) {
-        return fancyLogger.success({ message, prefix: `[${prefix}]` });
+    success(message: any, prefix?: string) {
+        return fancyLogger.success({
+            message,
+            prefix: prefix ? `[${prefix}]` : "",
+        });
     },
 
-    pending(message: string, prefix?: string) {
-        return fancyLogger.pending({ message, prefix: `[${prefix}]` });
+    pending(message: any, prefix?: string) {
+        return fancyLogger.pending({
+            message,
+            prefix: prefix ? `[${prefix}]` : "",
+        });
     },
-    warn(message: string, prefix?: string) {
-        return fancyLogger.warn({ message, prefix: `[${prefix}]` });
+    warn(message: any, prefix?: string) {
+        return fancyLogger.warn({
+            message,
+            prefix: prefix ? `[${prefix}]` : "",
+        });
     },
 
-    complete(message: string, prefix?: string) {
-        return fancyLogger.complete({ message, prefix: `[${prefix}]` });
+    complete(message: any, prefix?: string) {
+        return fancyLogger.complete({
+            message,
+            prefix: prefix ? `[${prefix}]` : "",
+        });
     },
 
-    fatal(message: string, prefix: string) {
+    fatal(message: any, prefix: string) {
         return fancyLogger.fatal(message, prefix);
     },
 
-    watch(message: string) {
+    watch(message: any) {
         return fancyLogger.watch(message);
     },
 };
