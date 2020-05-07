@@ -27,8 +27,9 @@
             "@config": ["src/config/index.ts"],
             "@utils": ["src/utils/index.ts"],
             "@types": ["src/types/index.ts"],
-            "@decorators": ["src/decorators/index.ts"],
-            "@middlewares": ["src/middlewares/index.ts"]
+            "@app/middlewares": ["src/app/middlewares/index.ts"],
+            "@app/services": ["src/app/services/index.ts"],
+            "@app/decorators": ["src/app/decorators/index.ts"]
         }
     },
     "exclude": ["node_modules"],
