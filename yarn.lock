@@ -725,7 +725,7 @@ camelcase@^5.3.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-chalk@^2.3.0, chalk@^2.3.2:
+chalk@^2.3.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -2405,13 +2405,6 @@ yn@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
-
-youch-terminal@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/youch-terminal/-/youch-terminal-1.0.0.tgz#03e2096ee360ef915816e62ea9ec94a6ff094d9e"
-  integrity sha512-rOVcJi5juKSUI3/mwAKOP+gjrUWUgb5AUTe2LZlfLBgLdfgnYtBKCrWc02GgRozDf/i6uXBu9/y3Vf6db+7k1A==
-  dependencies:
-    chalk "^2.3.0"
 
 zen-observable-ts@^0.8.21:
   version "0.8.21"

@@ -17,7 +17,7 @@ const bootstrap = async () => {
 
         app.listen(port, () => alert.info(`🚀 running at ${url}`, "Server"));
     } catch (error) {
-        //
+        alert.error(error);
     }
 };
 

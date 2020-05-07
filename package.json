@@ -18,8 +18,7 @@
         "graphql-tools": "^5.0.0",
         "reflect-metadata": "^0.1.13",
         "signale": "^1.4.0",
-        "type-graphql": "^1.0.0-rc.1",
-        "youch-terminal": "^1.0.0"
+        "type-graphql": "^1.0.0-rc.1"
     },
     "devDependencies": {
         "@types/dotenv": "^8.2.0",

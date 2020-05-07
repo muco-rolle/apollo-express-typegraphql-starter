@@ -42,4 +42,11 @@ export const alert = {
     watch(message: any) {
         return fancyLogger.watch(message);
     },
+
+    error(error: any, prefix?: string) {
+        return fancyLogger.error({
+            message: error,
+            prefix: prefix ? `[${prefix}]` : "",
+        });
+    },
 };
