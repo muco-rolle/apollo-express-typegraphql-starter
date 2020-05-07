@@ -49,6 +49,7 @@ typings/
 
 # dotenv environment variables file
 .env.production
+.env.development
 
 
 # Temporary folders
