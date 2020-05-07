@@ -1,8 +1,11 @@
-import { alert } from "./utils/alert";
+import "reflect-metadata";
+import { generateSchema } from "@config";
+import { alert } from "@utils";
 
-alert.info("Running on", "Server");
-alert.success("User saved", "Services - Auth");
-alert.fatal("Test", "Server");
-alert.watch("TEst");
-alert.warn("Test", "Server");
-alert.complete("Test", "Server");
+const bootstrap = async () => {
+    const schema = await generateSchema();
+
+    alert.info(schema as any);
+};
+
+bootstrap();
